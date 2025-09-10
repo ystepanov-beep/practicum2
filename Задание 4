@@ -1,0 +1,6 @@
+man = 1
+wifes = 7
+cats = wifes * 7 * 7
+kittens = cats * 7
+total = man + wifes + cats + kittens
+print(total)
