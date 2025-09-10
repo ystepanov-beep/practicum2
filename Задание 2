@@ -1,0 +1,4 @@
+country = input().strip()
+words = country.split()
+for word in words:
+ print(word)
