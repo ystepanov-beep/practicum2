@@ -1,0 +1,6 @@
+cnt_ag = 96
+cnt_au = cnt_ag / 16
+amount = int(input('Введите общую сумму в рубли'))
+coast_ag = 48
+coast_au = int((amount - cnt_ag * coast_ag) // cnt_au)
+print(f'Цена золотых часов: {coast_au} руб.')
