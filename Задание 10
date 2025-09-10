@@ -1,0 +1,4 @@
+meters = float(input("Введите расстояние в метрах: "))
+miles = meters / 1609.34
+full_miles = int(miles)
+print(full_miles)
