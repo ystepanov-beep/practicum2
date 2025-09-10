@@ -1,0 +1,6 @@
+data = input().split()
+n = int(data[0])
+m = int(data[1])
+total_persons = n + 1
+result = m // total_persons
+print(result)
