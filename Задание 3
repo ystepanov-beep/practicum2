@@ -1,0 +1,3 @@
+s, r = map(int, input().split())
+total = s + r
+print(total)
